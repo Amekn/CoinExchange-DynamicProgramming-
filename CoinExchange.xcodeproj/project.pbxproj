@@ -1,0 +1,74 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXFileReference section */
+		F088D9FE2ABFD9D400130167 /* CoinExchange.java */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.java; path = CoinExchange.java; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		F088D9F72ABFD9C000130167 = {
+			isa = PBXGroup;
+			children = (
+				F088D9FE2ABFD9D400130167 /* CoinExchange.java */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		F088D9F82ABFD9C000130167 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = F088D9FB2ABFD9C000130167 /* Build configuration list for PBXProject "CoinExchange" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F088D9F72ABFD9C000130167;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		F088D9FC2ABFD9C000130167 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		F088D9FD2ABFD9C000130167 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F088D9FB2ABFD9C000130167 /* Build configuration list for PBXProject "CoinExchange" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F088D9FC2ABFD9C000130167 /* Debug */,
+				F088D9FD2ABFD9C000130167 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F088D9F82ABFD9C000130167 /* Project object */;
+}
