@@ -34,12 +34,12 @@ public class CoinExchange{
         return minCoins;
     }
     
-    public static int makeChangeIterativeDynamic(int[] coins, int differentCoins, int maxChange, int[] coinsUsed, int[] lastCoin){
+    public static int makeChangeIterativeDynamic(int[] coins, int maxChange, int[] coinsUsed, int[] lastCoin){
         coinsUsed[0] = 0; lastCoin[0] = 1;
         for(int cents = 1; cents <= maxChange; cents++){
             int minCoins = cents;
             int newCoin = 1;
-            for(int j = 0; j < differentCoins; j++){
+            for(int j = 0; j < coins.length; j++){
                 if(coins[j] > cents) break;//Cannot use coin j, as it is larger than the change we trying to make.
                 if(coinsUsed[cents - coins[j]] + 1 < minCoins){
                     minCoins = coinsUsed[cents - coins[j]] + 1;
